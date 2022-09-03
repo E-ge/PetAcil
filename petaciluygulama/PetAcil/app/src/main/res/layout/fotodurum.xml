@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/durumbg"
+    tools:context=".fotodurum">
+
+    <Button
+        android:id="@+id/vetadres"
+        android:layout_width="291dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/btn_sekil"
+        android:foreground="@drawable/adresiste"
+        android:onClick="adresulas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/durumtext" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/petimage"
+        android:layout_width="244dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="65dp"
+        android:background="@drawable/yukle"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/vetcall"
+        android:layout_width="291dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_sekil"
+        android:foreground="@drawable/btn_vetcagir"
+        android:onClick="vetcagir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/durumtext" />
+
+    <EditText
+        android:id="@+id/durumtext"
+        android:layout_width="311dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/textviewbg"
+        android:fitsSystemWindows="true"
+        android:hint="Hayvanın durumu hakkında kısaca bilgilendirme yapınız."
+        android:maxLength="120"
+        android:padding="10dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#F5F5F5"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/vetcall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/petimage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

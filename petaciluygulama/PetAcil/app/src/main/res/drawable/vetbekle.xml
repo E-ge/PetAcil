@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bekle1" android:duration="320"/>
+    <item android:drawable="@drawable/bekle2" android:duration="320"/>
+    <item android:drawable="@drawable/bekle3" android:duration="320"/>
+    <item android:drawable="@drawable/bekle4" android:duration="320"/>
+    <item android:drawable="@drawable/bekle5" android:duration="320"/>
+    <item android:drawable="@drawable/bekle6" android:duration="320"/>
+    <item android:drawable="@drawable/bekle7" android:duration="320"/>
+
+</animation-list>

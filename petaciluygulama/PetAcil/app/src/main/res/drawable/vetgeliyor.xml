@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/geliyor1" android:duration="320"/>
+    <item android:drawable="@drawable/geliyor2" android:duration="320"/>
+    <item android:drawable="@drawable/geliyor3" android:duration="320"/>
+    <item android:drawable="@drawable/geliyor4" android:duration="320"/>
+    <item android:drawable="@drawable/geliyor3" android:duration="320"/>
+    <item android:drawable="@drawable/geliyor2" android:duration="320"/>
+    <item android:drawable="@drawable/geliyor1" android:duration="320"/>
+</animation-list>

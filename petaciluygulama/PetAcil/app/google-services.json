@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "758528422439",
+    "project_id": "petacil-c7e08",
+    "storage_bucket": "petacil-c7e08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758528422439:android:0e4eb635b130bc69ef1402",
+        "android_client_info": {
+          "package_name": "com.egegok.petacil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758528422439-jvrh8uj7m6n0ugk70hbb3kurnl6sre1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0evtfLmpNwL8UZx0-wl8_tgO8eejinTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758528422439-jvrh8uj7m6n0ugk70hbb3kurnl6sre1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
